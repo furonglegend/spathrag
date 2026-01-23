@@ -1,0 +1,37 @@
+# configs/default.yaml
+# Project-wide default configuration.
+# This file references dataset and training defaults and also contains
+# model / runtime / evaluation settings.
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  vocab_dir: "data/vocab"
+  train_file: "data/processed/train.jsonl"
+  dev_file: "data/processed/dev.jsonl"
+  test_file: "data/processed/test.jsonl"
+
+model:
+  # Path encoder / GNN / latent dimensions
+  latent_dim: 128
+  node_embed_dim: 128
+  relation_embed_dim: 128
+  gnn_hidden_dim: 128
+  gnn_layers: 2
+
+runner:
+  max_iterations: 3
+  top_k: 5
+  enumeration_method: "k_shortest"
+
+llm:
+  model_name_or_path: "gpt2"
+  device: "cpu"
+  injection_mode: "prefix"  # one of: "prefix", "prompt"
+
+logging:
+  log_dir: "logs"
+  level: "INFO"
+
+# include dataset-specific & training-specific defaults by file paths if needed.
+# The training CLI can also accept overrides from configs/training.yaml

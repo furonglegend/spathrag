@@ -1,0 +1,19 @@
+# Core dependencies
+torch>=1.13.0            # PyTorch, CPU or CUDA builds depending on your environment
+transformers>=4.30.0     # HuggingFace Transformers for LLM wrapper
+networkx>=2.8.0          # graph utilities
+numpy>=1.24.0
+PyYAML>=6.0
+tqdm>=4.64.0
+
+# Utilities (optional but commonly used)
+matplotlib>=3.6.0
+scikit-learn>=1.2.0
+
+# Optional, not required by the minimal prototype
+# dgl-cu117==0.9.0        # if you want DGL (example, install only if needed)
+# faiss-cpu              # fast similarity search
+# torch-geometric        # PyG if you prefer PyG-style GNNs
+
+# Testing
+pytest>=7.0.0

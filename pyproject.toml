@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "s_path_rag"
+version = "0.1.0"
+description = "S-Path-RAG prototype: semantic-aware shortest-path RAG for KGQA"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+  "torch>=1.13.0",
+  "transformers>=4.30.0",
+  "networkx>=2.8.0",
+  "numpy>=1.24.0",
+  "PyYAML>=6.0",
+  "tqdm>=4.64.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0.0", "matplotlib>=3.6.0", "scikit-learn>=1.2.0"]
+dgl = ["dgl"]
