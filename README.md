@@ -1,6 +1,6 @@
 # S-Path-RAG (Prototype)
 
-A research-oriented, modular codebase skeleton for **S-Path-RAG** — a semantic-aware shortest-path Retrieval-Augmented Generation framework for multi-hop Knowledge Graph Question Answering (KGQA).
+A research-oriented, modular codebase skeleton for **S-Path-RAG**, a semantic-aware shortest-path Retrieval-Augmented Generation framework for multi-hop Knowledge Graph Question Answering (KGQA).
 
 This repository contains a complete engineering scaffold (data, KG utilities, enumerators, encoders, training pipeline, LLM integration and evaluation utilities) intended for prototyping and research experiments. The provided modules are lightweight, well-documented, and easy to replace with production-grade components (DGL/PyG, Neo4j, Faiss, etc.).
 
