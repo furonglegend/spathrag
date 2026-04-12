@@ -33,5 +33,5 @@ pip install -r requirements.txt
 # optionally install in editable/development mode
 pip install -e .
 ```
-## explanation
+## Acknowledge
 This project code is only used for principle explanation. The code is only used as an early version.
