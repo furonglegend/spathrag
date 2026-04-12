@@ -34,4 +34,4 @@ pip install -r requirements.txt
 pip install -e .
 ```
 ## explanation
-This project code is only used for principle explanation.
+This project code is only used for principle explanation. The code is only used as an early version.
