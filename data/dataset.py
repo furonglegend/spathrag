@@ -6,8 +6,6 @@ Provides:
   - QADataset: a simple PyTorch Dataset for question-answer pairs with optional gold paths
   - collate_fn: batching function to prepare tensors/dicts for training or inference
   - DataLoader factory helper
-
-All comments in English.
 """
 
 from typing import List, Dict, Any, Optional, Iterable, Tuple
