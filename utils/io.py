@@ -2,7 +2,6 @@
 """
 I/O helper utilities for common file formats.
 Includes JSON, YAML, pickle, and simple text line readers/writers.
-All comments in English.
 """
 
 import json
