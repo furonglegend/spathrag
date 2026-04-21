@@ -3,7 +3,6 @@
 Verifier module (v_eta).
 Implements a lightweight binary classifier that judges whether a candidate path
 is plausible given its latent representation.
-All comments in English.
 """
 
 from typing import Optional
