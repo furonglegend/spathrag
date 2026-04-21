@@ -1,5 +1,4 @@
 # notebooks/visualize_paths.py
-# English comments only.
 # Small utility to visualize enumerated KG paths and simple diagnostics.
 # Usage as a script: python notebooks/visualize_paths.py results.json
 # results.json is expected to be a small JSON containing a list of paths or a dict with "paths" key.
