@@ -5,7 +5,6 @@ Supports modes:
   - train : run staged training (calls src.training.trainer.main)
   - eval  : run evaluation on a checkpoint (uses SPathRAGRunner for inference)
   - infer : single-query interactive inference
-All comments are in English.
 """
 
 import argparse
