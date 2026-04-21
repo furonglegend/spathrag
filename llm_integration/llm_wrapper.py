@@ -9,7 +9,6 @@ It uses `inputs_embeds` to pass concatenated prefix embeddings + token embedding
 Important notes:
   - prefix injection is compatible with causal LMs that accept inputs_embeds in generate().
   - For encoder-decoder models or custom cross-attention injection, you will need to adapt the integration.
-All comments in English.
 """
 
 from typing import Optional, Any, Dict, List
