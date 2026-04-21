@@ -5,8 +5,6 @@ Provides:
   - expand_neighborhood: expand a set of seed nodes within a KG by hop count and optional filtering
   - knn_seed_expansion: expand seeds by nearest neighbors using node embeddings (cosine similarity)
   - degree_based_expansion: pick high-degree neighbors to prioritize hubs
-
-All comments in English.
 """
 
 from typing import Iterable, List, Set, Optional, Dict, Any, Tuple
