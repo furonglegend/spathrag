@@ -5,7 +5,7 @@ Stages:
   1) pretrain_gnn_encoder: pretrain node/path encoders (contrastive / reconstruction)
   2) train_scorer_and_injection: train path scorer and LLM injection projection
   3) joint_finetune: joint fine-tuning (small LR) optionally with LLM
-  4) optional PPO finetune stage (placeholder)
+  4) optional PPO finetune stage
 
 This file provides a runnable CLI that expects a YAML config file,
 but will also run with defaults if config file is not provided.
