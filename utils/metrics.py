@@ -6,7 +6,6 @@ Provides:
   - precision/recall/f1 for binary and multi-class (macro/micro)
   - top-k accuracy for ranking outputs
   - MRR (mean reciprocal rank)
-All comments in English.
 """
 
 from typing import List, Iterable, Sequence, Tuple, Optional
