@@ -6,7 +6,6 @@ This file provides:
     diagnostic textual messages using regex.
   - a placeholder LearnedMapper class that can be implemented if you want to
     train a mapping model.
-All comments in English.
 """
 
 import re
