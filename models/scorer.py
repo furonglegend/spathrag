@@ -4,7 +4,6 @@ Path scorer module (s_theta).
 Implements:
   - a small MLP scorer that maps path latents -> scalar score
   - a utility to obtain soft top-k weights using Gumbel-Softmax
-All comments in English.
 """
 
 from typing import Optional, Tuple
