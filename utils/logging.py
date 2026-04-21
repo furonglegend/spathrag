@@ -3,7 +3,6 @@
 Logging utilities.
 Provides a get_logger convenience function that configures a logger
 with a RotatingFileHandler and optional console output.
-All comments and identifiers are in English.
 """
 
 import logging
