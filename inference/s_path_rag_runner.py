@@ -9,8 +9,6 @@ This module orchestrates:
   - mapping diagnostics to graph edits via mapper_pi
   - updating the KG store / subgraph and repeating
 
-The implementation below uses placeholders and defensive imports so it can run
-as a high-level orchestrator even before all components are implemented.
 """
 
 import logging
