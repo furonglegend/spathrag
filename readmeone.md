@@ -99,6 +99,4 @@ data:
 
 ## Limitations
 
-This version is a runnable reconstruction of the paper mechanism, not a full reproduction of the LLaMA2-7B and A100-scale
-experiments reported in the paper. It prioritizes correct project structure, runnable default commands, interpretable path
-retrieval, and clear extension points for WebQSP, CWQ, MetaQA, or OGB WikiKG2.
+This version is the principle run version of the minimum version of the paper implementation.
