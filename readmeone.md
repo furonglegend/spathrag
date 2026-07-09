@@ -8,12 +8,6 @@ main paper workflow. Optional neural dependencies can still be installed later t
 scorer, verifier, and HuggingFace LLM prefix-injection path.
 
 ## Public Data Search Results
-
-The LaTeX paper states that source code is available at `https://github.com/furonglegend/spathrag`. I found that repository
-as a public GitHub project with a `Camera-ready code for S-Path-RAG` release. The repository page did not show WebQSP, CWQ,
-or MetaQA data files bundled directly with the code. The paper arXiv page is `https://arxiv.org/abs/2603.23512`, and its
-abstract matches the local LaTeX source.
-
 The benchmarks mentioned in the paper can be obtained separately:
 
 - WebQSP: Microsoft Download Center provides `WebQSP.zip`. The page says it contains 4,737 questions with full SPARQL
