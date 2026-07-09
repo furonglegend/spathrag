@@ -1,0 +1,37 @@
+# configs/training.yaml
+# Training hyperparameters and staging configuration.
+
+training:
+  device: "cuda"             # override to "cpu" if CUDA not available
+  seed: 42
+
+  pretrain:
+    epochs: 3
+    batch_size: 64
+    lr: 1e-3
+
+  scorer_train:
+    epochs: 3
+    batch_size: 32
+    lr: 5e-4
+
+  finetune:
+    epochs: 2
+    batch_size: 8
+    lr: 1e-5
+
+  optimizer:
+    weight_decay: 0.01
+    scheduler: "cosine"
+    scheduler_params:
+      T_max: 50
+
+  ppo:
+    enabled: false
+    ppo_epochs: 10
+    ppo_lr: 1e-5
+
+checkpoint:
+  save_dir: "checkpoints"
+  save_every_steps: 1000
+  keep_last: 5

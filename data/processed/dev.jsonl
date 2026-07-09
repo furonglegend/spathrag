@@ -1,0 +1,2 @@
+{"query":"Who starred in Inception?","answer":"Leonardo DiCaprio","seed_entities":["Inception"],"gold_paths":[["Inception","Leonardo_DiCaprio"]]}
+{"query":"What genre is Avatar?","answer":"Science Fiction","seed_entities":["Avatar"],"gold_paths":[["Avatar","Science_Fiction"]]}

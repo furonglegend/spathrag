@@ -1,0 +1,3 @@
+{"query":"Who directed Inception?","answer":"Christopher Nolan","seed_entities":["Inception"],"gold_paths":[["Inception","Christopher_Nolan"]]}
+{"query":"Which country is the director of Titanic born in?","answer":"Canada","seed_entities":["Titanic"],"gold_paths":[["Titanic","James_Cameron","Canada"]]}
+{"query":"Who acted in The Dark Knight?","answer":"Christian Bale","seed_entities":["The_Dark_Knight"],"gold_paths":[["The_Dark_Knight","Christian_Bale"]]}

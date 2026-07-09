@@ -1,0 +1,3 @@
+{"query":"Who directed Inception?","answer":"Christopher Nolan","seed_entities":["Inception"],"gold_paths":[["Inception","Christopher_Nolan"]]}
+{"query":"Which country is the director of Titanic born in?","answer":"Canada","seed_entities":["Titanic"],"gold_paths":[["Titanic","James_Cameron","Canada"]]}
+{"query":"Who produced a movie directed by Christopher Nolan through a spouse relation?","answer":"Emma Thomas","seed_entities":["Christopher_Nolan"],"gold_paths":[["Christopher_Nolan","Emma_Thomas","Inception"]]}

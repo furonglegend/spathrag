@@ -1,0 +1,12 @@
+# Core dependencies for the runnable local S-Path-RAG reconstruction.
+networkx>=2.8.0
+numpy>=1.24.0
+PyYAML>=6.0
+tqdm>=4.64.0
+
+# Tests and validation.
+pytest>=7.0.0
+
+# Optional neural/LLM dependencies for trainable encoders and HuggingFace LMs:
+# torch>=1.13.0
+# transformers>=4.30.0
