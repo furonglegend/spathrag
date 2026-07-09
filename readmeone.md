@@ -1,4 +1,4 @@
-# S-Path-RAG Reconstruction Notes
+# S-Path-RAG Notes
 
 This project reconstructs a runnable Python prototype for the paper
 "S-Path-RAG: Semantic-Aware Shortest-Path Retrieval Augmented Generation for Multi-Hop Knowledge Graph Question Answering".
