@@ -2,7 +2,7 @@
 
 This project reconstructs a runnable Python prototype for the paper
 "S-Path-RAG: Semantic-Aware Shortest-Path Retrieval Augmented Generation for Multi-Hop Knowledge Graph Question Answering".
-The original `README.md` is preserved unchanged. The current version runs locally by default without requiring `torch`,
+The current version runs locally by default without requiring `torch`,
 `transformers`, or online model downloads. It uses a lightweight NetworkX + NumPy + synthetic KGQA setup to reproduce the
 main paper workflow. Optional neural dependencies can still be installed later to extend the trainable path encoder,
 scorer, verifier, and HuggingFace LLM prefix-injection path.
